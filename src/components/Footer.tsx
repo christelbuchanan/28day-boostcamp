@@ -11,15 +11,6 @@ const Footer: React.FC = () => {
             <p className="text-gray-300 mt-1">28 Day Boost Camp Meal Planner</p>
           </div>
           <div className="flex flex-col md:flex-row md:space-x-8 text-center md:text-left">
-            <div className="mb-4 md:mb-0">
-              <h3 className="text-secondary-400 font-semibold mb-2">Quick Links</h3>
-              <ul className="space-y-1">
-                <li><a href="#" className="text-gray-300 hover:text-secondary-300">Home</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-secondary-300">About</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-secondary-300">Recipes</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-secondary-300">Contact</a></li>
-              </ul>
-            </div>
             <div>
               <h3 className="text-secondary-400 font-semibold mb-2">Connect</h3>
               <ul className="space-y-1">
@@ -36,6 +27,9 @@ const Footer: React.FC = () => {
             Made with <Heart size={16} className="mx-1 text-secondary-500" fill="currentColor" /> by Bridget's Healthy Kitchen
           </p>
           <p className="text-gray-500 text-sm mt-1">© 2024 Bridget's Healthy Kitchen. All rights reserved.</p>
+          <p className="text-gray-500 text-sm mt-2">
+            Built using <a href="https://chatandbuild.com" target="_blank" rel="noopener noreferrer" className="text-secondary-400 hover:text-secondary-300">chatandbuild.com</a>
+          </p>
         </div>
       </div>
     </footer>

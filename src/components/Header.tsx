@@ -15,15 +15,14 @@ const Header: React.FC = () => {
               <p className="text-sm text-gray-500">Nourish your body, fuel your life</p>
             </div>
           </div>
-          <nav className="hidden md:flex space-x-6">
-            <a href="#" className="text-gray-600 hover:text-secondary-600 font-medium">Home</a>
-            <a href="#" className="text-gray-600 hover:text-secondary-600 font-medium">About</a>
-            <a href="#" className="text-gray-600 hover:text-secondary-600 font-medium">Recipes</a>
-            <a href="#" className="text-gray-600 hover:text-secondary-600 font-medium">Contact</a>
-          </nav>
-          <button className="bg-primary-900 hover:bg-primary-800 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+          <a 
+            href="https://28dayboostcamp.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-primary-900 hover:bg-primary-800 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+          >
             <span className="text-secondary-400">Join Now</span>
-          </button>
+          </a>
         </div>
       </div>
     </header>
