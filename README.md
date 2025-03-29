@@ -160,4 +160,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-© 2023 Bridget's Healthy Kitchen. All rights reserved.
+© 2025 Bridget's Healthy Kitchen. All rights reserved.
