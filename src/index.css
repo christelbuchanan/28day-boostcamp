@@ -35,3 +35,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #db2777;
 }
+
+/* Custom font styles */
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 0.5px;
+}

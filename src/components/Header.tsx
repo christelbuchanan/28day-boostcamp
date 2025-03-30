@@ -11,8 +11,8 @@ const Header: React.FC = () => {
               <Utensils size={24} className="text-secondary-400" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-800">Bridget's Healthy Kitchen</h1>
-              <p className="text-sm text-gray-500">Nourish your body, fuel your life</p>
+              <h1 className="font-dancing text-2xl font-bold text-gray-800">Bridget's Healthy Kitchen</h1>
+              <p className="text-sm text-gray-500 font-dancing">28 Day Boost Camp Meal Plan</p>
             </div>
           </div>
           <a 
